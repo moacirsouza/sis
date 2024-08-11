@@ -7,6 +7,7 @@ together in a single project!
 
 1. Programming Languages
    1. Python
+   2. JavaScript
 2. Operating Systems
    1. Linux
       1. Shell script
