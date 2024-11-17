@@ -6,7 +6,7 @@ together in a single project!
 ## Index
 
 1. Programming Languages
-   1. C
+   1. [C](001-ProgrammingLanguages/001-C)
    2. JavaScript
    3. Python
 2. Operating Systems
