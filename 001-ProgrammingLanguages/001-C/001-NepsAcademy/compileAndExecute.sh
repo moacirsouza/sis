@@ -29,20 +29,17 @@ echo $output
 
 if [ -z "${1}" ] #  When the user doesn't pass any arguments, create a new file
 then
-  echo "Se eu não passar argumentos, o script cria um arquivo novo"
   editCompileShow ${newExerciseNumber}
 else # When the user passes an argument it's time to test several options
   case "${1}" in
   ## The '-el' argument stands for 'Edit the Last file'
   -el)
-    echo "Se eu passar '-el', o script edita o arquivo criado recentemente -> el=edit last"
     shift
     editCompileShow ${currentExercise}
     exit 0
   ;;
   ## The '-ep' argument stands for 'Edit a Pre-existing file'
   -ep)
-    echo "Se eu passar '-ep', o script exige que o nome de um arquivo seja passado explicitamente. Se isso não acontecer, ele levanta um erro -> ep=edit pre-existing file"
     shift
     if [ -z "${1}" ]
     then
