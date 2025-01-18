@@ -1,18 +1,20 @@
 #include <stdio.h>
 
-int main(){
-  // Defines "bino" and "cino" as integers
+int main(void){
+  // Declares two integers
   int bino, cino;
 
-  // Receives "bino" and "cino" as integers
+  // Expects two integer inputs from the user
   scanf("%d", &bino);
   scanf("%d", &cino);
  
- // Tests the sum of the two inputs
+  // Tests the sum of the two inputs:
+  // 1. Prints "Cino" if the result is odd
+  // 2. Prints "Bino" if the result is even
   if((bino+cino)%2 != 0){
-    printf("Cino\n"); // Prints "Cino" if the result is odd
+    printf("Cino\n"); 
   }else{
-    printf("Bino\n"); // Prints "Bino" if the result is even
+    printf("Bino\n"); 
   }
 
   return 0;
