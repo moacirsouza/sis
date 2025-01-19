@@ -14,7 +14,7 @@ int isInputInvalid(int number){
 }
 
 int main(void){
-  // Declares four integer variables, a vector and three scalars
+  // Declares four integer variables: One vector and three scalars
   int vector[10], iterator, x, found = 0;
 
   // Executes a loop of 10 iterations, expecting, each time, a integer input
