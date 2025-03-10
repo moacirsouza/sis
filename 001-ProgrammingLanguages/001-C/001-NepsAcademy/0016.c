@@ -32,12 +32,10 @@ int main(void){
         vowelFound = 1;
       }
     }
-
     if(vowelFound != 1){
       consonantsList[consonantsCounter] = inputString[indexA];
       consonantsCounter++;
     }
-
     vowelFound = 0;
   }
 
@@ -46,3 +44,4 @@ int main(void){
 
   return 0;
 }
+
